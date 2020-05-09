@@ -1,0 +1,159 @@
+.bodybg {
+  background-color: #fff8ec;
+  background-repeat: no-repeat;
+  height: 200rem;
+}
+
+.colornavbar {
+  background-color: #fff8ec;
+}
+
+.textnavbar {
+  font-size: 1.5rem;
+}
+
+.textnavbar:hover {
+  background-color: rgb(241, 217, 137);
+  border-radius: 30px;
+  max-width: 160px;
+  transform: translateY(-5px);
+  transition: 1s ease-out;
+
+}
+
+.colorlogo2P {
+  width: 30px;
+  height: 30px;
+  color: white;
+ 
+
+}
+
+.colorlogo2P:hover {
+  border-radius: 10px;
+  transform: translateY(-5px);
+  transition: 1s ease-out;
+
+}
+
+
+
+.categorie-text {
+  background-color: #f3ecd1;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: inset 0 0 0, 0 0 10px black;
+  color: #959190;
+
+}
+
+.colorboutonPanier {
+  background-color: #fff8ec;
+  height: 40px;
+  width: 55px;
+  margin-top: 2rem;
+
+}
+
+.colorboutonPanier:hover {
+  background-color: rgb(241, 217, 137);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: 1s ease-out;
+}
+
+.card:hover~.card {
+  transition: 2s ease-out;
+}
+
+.card {
+  background-color: rgb(231, 210, 152);
+  border-radius: 1px;
+  box-shadow: inset 0 0 0, 0 0 10px black;
+}
+
+.category {
+  font-size: 3rem;
+}
+
+footer {
+  background: #f3ecd1;
+  background-color: #959190;
+  background-size: 14rem;
+
+}
+
+.form-control {
+  width: 5rem;
+}
+
+.btn.btn-dark.float-right {
+  position: relative;
+  bottom: 40px;
+}
+
+.modifPrix {
+  position: relative;
+  left: 70px;
+  font-size: 2.2rem;
+
+}
+
+/* BACKGROUND DES ELEMENT PANIER + POINTEUR SUR ELEMENT  */
+#panier>ul>li {
+  background-color: #fff8ec;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: inset 0 0 0,
+    0 0 5px black;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+  
+ overflow: hidden;
+ /*   CA CEST POUR ENLEVER LE PETIT ROND DU UL */
+
+
+}
+
+/* ICI : ONMOUSE OVER AFFICHACHE DU SUPPRIMER PAR DESSUS L'ARTICLE */
+#panier>ul>li:not(.removing):hover:after {
+position: absolute;
+  content: "Supprimer du panier";
+  right: 0;
+  color: rgb(255, 0, 0);
+  background-color: #fff8ec;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  
+  box-shadow: inset 0 0 0,
+    0 0 20px red;
+    
+    
+
+}
+#video{
+  border-radius: 35px;
+  filter: sepia(20%);
+}
+
+.colorfondmodal{
+  background-image: url(../img/GrandeImageVelo.jpg);
+  background-size: 100%;
+  filter: sepia(25%);
+  
+}
+
+.buttonclosemodal{
+  color: red;
+  
+}
